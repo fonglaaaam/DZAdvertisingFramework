@@ -104,7 +104,7 @@ Pod::Spec.new do |s|
   #  non-essential files like tests, examples and documentation.
   #
 
-  s.resource  = "DZAdvertising.framework"
+  s.resource  = "Classes/*"
   # s.resources = "Resources/*.png"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
@@ -116,9 +116,9 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  s.framework  = "Foundation"
-  s.frameworks = "DZAdvertising" 
-
+  #s.framework  = "Foundation"
+  #s.frameworks = "DZAdvertising" 
+  s.vendored_frameworks = 'DZAdvertising.framework'
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
 
