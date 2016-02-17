@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A1A81DE71C731A090074B259 /* DZAdvertising.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1A81DE51C731A040074B259 /* DZAdvertising.framework */; };
-		A1A81DE81C731A090074B259 /* DZAdvertising.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A1A81DE51C731A040074B259 /* DZAdvertising.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A120B6781C74190800332AF7 /* DZAdvertising.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A120B6771C74190800332AF7 /* DZAdvertising.framework */; };
+		A120B67A1C74190E00332AF7 /* DZAdvertising.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A120B6771C74190800332AF7 /* DZAdvertising.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A1E314251C71A4E7007C549B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E314241C71A4E7007C549B /* AppDelegate.swift */; };
 		A1E314271C71A4E7007C549B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E314261C71A4E7007C549B /* ViewController.swift */; };
 		A1E3142A1C71A4E7007C549B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1E314281C71A4E7007C549B /* Main.storyboard */; };
@@ -23,7 +23,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				A1A81DE81C731A090074B259 /* DZAdvertising.framework in Embed Frameworks */,
+				A120B67A1C74190E00332AF7 /* DZAdvertising.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -31,7 +31,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A1A81DE51C731A040074B259 /* DZAdvertising.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DZAdvertising.framework; sourceTree = "<group>"; };
+		A120B6771C74190800332AF7 /* DZAdvertising.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DZAdvertising.framework; path = ../Classes/DZAdvertising.framework; sourceTree = "<group>"; };
 		A1E314211C71A4E7007C549B /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1E314241C71A4E7007C549B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1E314261C71A4E7007C549B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1A81DE71C731A090074B259 /* DZAdvertising.framework in Frameworks */,
+				A120B6781C74190800332AF7 /* DZAdvertising.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,9 +56,9 @@
 		A1E314181C71A4E7007C549B = {
 			isa = PBXGroup;
 			children = (
-				A1A81DE51C731A040074B259 /* DZAdvertising.framework */,
 				A1E314231C71A4E7007C549B /* Demo */,
 				A1E314221C71A4E7007C549B /* Products */,
+				A120B6771C74190800332AF7 /* DZAdvertising.framework */,
 			);
 			sourceTree = "<group>";
 		};
