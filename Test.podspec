@@ -90,8 +90,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "Classes/*"
+  #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -116,8 +116,8 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  s.framework  = "DZAdvertising"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
+  s.framework  = "DZAdvertising.framework"
+  # s.frameworks = "DZAdvertising", "AnotherFramework"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
