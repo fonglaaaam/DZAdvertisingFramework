@@ -104,7 +104,7 @@ Pod::Spec.new do |s|
   #  non-essential files like tests, examples and documentation.
   #
 
-  s.resource  = "Classes/*"
+  # s.resource  = "Classes/*"
   # s.resources = "Resources/*.png"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
@@ -117,7 +117,7 @@ Pod::Spec.new do |s|
   #
 
   #s.framework  = "Foundation"
-  #s.frameworks = "DZAdvertising" 
+ s.frameworks = 'AudioToolbox', 'CFNetwork', 'CoreGraphics', 'CoreMedia', 'Security', 'SystemConfiguration'
   s.vendored_frameworks = 'DZAdvertising.framework'
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
