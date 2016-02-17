@@ -1,0 +1,10 @@
+framework module DZAdvertising {
+  umbrella header "DZAdvertising.h"
+
+  export *
+  module * { export * }
+}
+
+module DZAdvertising.Swift {
+    header "DZAdvertising-Swift.h"
+}
