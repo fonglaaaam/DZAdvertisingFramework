@@ -116,8 +116,8 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  s.framework  = "DZAdvertising.framework"
-  # s.frameworks = "DZAdvertising", "AnotherFramework"
+  s.framework  = "Classes/DZAdvertising.framework"
+  #s.frameworks = "Classes/DZAdvertising.framework" 
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
