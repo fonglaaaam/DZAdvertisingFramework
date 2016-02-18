@@ -1,0 +1,6 @@
+source 'https://github.com/CocoaPods/Specs.git'
+xcodeproj 'Test.xcodeproj'
+
+use_frameworks!
+platform :ios, '8.0'
+pod 'Test', :git => 'https://github.com/AndyCC1023/Test.git'
