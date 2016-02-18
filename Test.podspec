@@ -20,8 +20,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.vendored_frameworks = 'DZAdvertising.framework'
-  s.frameworks = 'AudioToolbox', 'CFNetwork', 'CoreGraphics', 'CoreMedia', 'Security', 'SystemConfiguration'
-  s.dependency 'ObjectMapper', '~> 0.17'
+  s.frameworks = 'AudioToolbox', 'CFNetwork', 'CoreGraphics', 'CoreMedia', 'Security', 'SystemConfiguration' 
   s.dependency 'AFNetworking', '~> 2.2.4'
   s.dependency 'AFOAuth2Manager', '~> 2.0.0' 
 end
