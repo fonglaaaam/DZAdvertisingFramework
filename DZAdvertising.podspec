@@ -11,10 +11,10 @@ Pod::Spec.new do |s|
   s.version          = "0.0.2"
   s.summary          = "Backup of the Test iOS SDK."
   s.description      = "This is a backup of the Test iOS SDK."
-  s.homepage         = "https://github.com/AndyCC1023/Test"
+  s.homepage         = "https://github.com/AndyCC1023/DZAdvertisingFramework"
   s.license          = 'MIT'
   s.author           = { "Jared Sinclair" => "jaredsinclair.rn@gmail.com" }
-  s.source           = { :git => "https://github.com/AndyCC1023/Test.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/AndyCC1023/DZAdvertisingFramework.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
