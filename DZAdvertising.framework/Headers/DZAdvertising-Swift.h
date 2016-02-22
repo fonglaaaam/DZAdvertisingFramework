@@ -86,8 +86,23 @@ typedef int swift_int2  __attribute__((__ext_vector_type__(2)));
 typedef int swift_int3  __attribute__((__ext_vector_type__(3)));
 typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 #if defined(__has_feature) && __has_feature(modules)
+@import ObjectiveC;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
 #pragma clang diagnostic ignored "-Wduplicate-method-arg"
+
+SWIFT_CLASS("_TtC13DZAdvertising13DZAdvertising")
+@interface DZAdvertising : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIViewController;
+@class UIView;
+
+@interface DZAdvertising (SWIFT_EXTENSION(DZAdvertising))
++ (UIView * __nonnull)bannerView:(NSString * __nonnull)unitID :(UIViewController * __nonnull)rootViewController;
++ (NSString * __nonnull)sdkVersion;
+@end
+
 #pragma clang diagnostic pop

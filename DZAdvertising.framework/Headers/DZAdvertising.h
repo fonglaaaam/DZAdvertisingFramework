@@ -1,19 +1,19 @@
 //
-//  AD.h
-//  AD
+//  DZAdvertising.h
+//  DZAdvertising
 //
-//  Created by Chen Andy on 16/2/15.
+//  Created by Chen Andy on 16/2/22.
 //  Copyright © 2016年 Chen Andy. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-//! Project version number for AD.
-FOUNDATION_EXPORT double ADVersionNumber;
+//! Project version number for DZAdvertising.
+FOUNDATION_EXPORT double DZAdvertisingVersionNumber;
 
-//! Project version string for AD.
-FOUNDATION_EXPORT const unsigned char ADVersionString[];
+//! Project version string for DZAdvertising.
+FOUNDATION_EXPORT const unsigned char DZAdvertisingVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <AD/PublicHeader.h>
+// In this header, you should import all the public headers of your framework using statements like #import <DZAdvertising/PublicHeader.h>
 
 
