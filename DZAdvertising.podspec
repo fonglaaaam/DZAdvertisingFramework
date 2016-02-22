@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = "Test"
-  s.version          = "0.0.1"
+  s.name             = "DZAdvertising"
+  s.version          = "0.0.2"
   s.summary          = "Backup of the Test iOS SDK."
   s.description      = "This is a backup of the Test iOS SDK."
   s.homepage         = "https://github.com/AndyCC1023/Test"
