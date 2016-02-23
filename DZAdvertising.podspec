@@ -20,5 +20,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.vendored_frameworks = 'DZAdvertising.framework'
+  s.vendored_frameworks = 'DZAdvertisingOC.framework'
   s.frameworks = 'AudioToolbox', 'CFNetwork', 'CoreGraphics', 'CoreMedia', 'Security', 'SystemConfiguration'  
 end
