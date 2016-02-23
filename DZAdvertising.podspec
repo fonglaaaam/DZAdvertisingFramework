@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.license          = 'MIT'
   s.author           = { "Jared Sinclair" => "jaredsinclair.rn@gmail.com" }
   s.source           = { :git => "https://github.com/AndyCC1023/DZAdvertisingFramework.git", :tag => s.version.to_s }
-
+  s.public_header_files = 'DZAdvertising.framework/Headers/*.h'
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
