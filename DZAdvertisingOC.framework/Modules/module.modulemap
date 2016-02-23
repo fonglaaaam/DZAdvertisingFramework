@@ -1,0 +1,6 @@
+framework module DZAdvertisingOC {
+  umbrella header "DZAdvertisingOC.h"
+
+  export *
+  module * { export * }
+}
