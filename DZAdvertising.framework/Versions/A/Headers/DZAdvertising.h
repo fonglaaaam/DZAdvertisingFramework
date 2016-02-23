@@ -15,5 +15,4 @@ FOUNDATION_EXPORT double DZAdvertisingVersionNumber;
 FOUNDATION_EXPORT const unsigned char DZAdvertisingVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <DZAdvertising/PublicHeader.h>
-
-
+#import <DZAdvertising/DZBannberView.h>
