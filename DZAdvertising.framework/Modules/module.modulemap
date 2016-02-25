@@ -3,4 +3,7 @@ framework module DZAdvertising {
 
   export *
   module * { export * }
+  
+  header "DZBannberView.h"
+  header "DZRequest.h"
 }
