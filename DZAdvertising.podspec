@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.public_header_files = 'DZAdvertising.framework/Headers/*.h'
   s.platform     = :ios, '8.0'
   s.requires_arc = true
-
+  s.resource     = "DZAdvertising.bundle"
   s.vendored_frameworks = 'DZAdvertising.framework'
   #s.vendored_frameworks = 'DZAdvertisingOC.framework'
   s.frameworks = 'AudioToolbox', 'CFNetwork', 'CoreGraphics', 'CoreMedia', 'Security', 'SystemConfiguration'  
