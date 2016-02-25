@@ -2,7 +2,7 @@
 //  DZAdvertising.h
 //  DZAdvertising
 //
-//  Created by Chen Andy on 16/2/23.
+//  Created by Chen Andy on 16/2/25.
 //  Copyright © 2016年 Chen Andy. All rights reserved.
 //
 
@@ -15,4 +15,6 @@ FOUNDATION_EXPORT double DZAdvertisingVersionNumber;
 FOUNDATION_EXPORT const unsigned char DZAdvertisingVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <DZAdvertising/PublicHeader.h>
+
 #import <DZAdvertising/DZBannberView.h>
+#import <DZAdvertising/DZRequest.h>
